@@ -1,0 +1,171 @@
+e class="card process-panel">
+          <div class="inner">
+            <h3>Acompañamiento transformacional</h3>
+            <div class="list-check" style="margin-top:18px">
+              <div>Preparación consciente antes de tu viaje</div>
+              <div>Orientación emocional y coaching previo al procedimiento</div>
+              <div>Coordinación médica estratégica con especialistas certificados</div>
+              <div>Acompañamiento presencial durante tu experiencia en Colombia</div>
+              <div>Espacios de recuperación enfocados en bienestar integral</div>
+              <div>Experiencias que conectan cuerpo, mente y entorno</div>
+              <div>Seguimiento personalizado después de tu regreso</div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-copy">
+          <div class="eyebrow">¿Por qué elegirnos?</div>
+          <h2 style="margin:14px 0 12px">No vendemos procedimientos; guiamos decisiones</h2>
+        </div>
+        <div class="grid-3">
+          <article class="card reason-card"><div class="reason-no">1</div><h4>No vendemos procedimientos; guiamos decisiones que transforman etapas de vida.</h4><p class="muted">La prioridad es la persona, su proceso y la claridad de lo que desea vivir.</p></article>
+          <article class="card reason-card"><div class="reason-no">2</div><h4>Diseñamos experiencias estructuradas con respaldo profesional certificado.</h4><p class="muted">Cada etapa integra calidad, seguridad, humanidad y coordinación real.</p></article>
+          <article class="card reason-card"><div class="reason-no">3</div><h4>Coordinamos cada detalle para que vivas el proceso con seguridad y confianza.</h4><p class="muted">Menos ruido, más contención y mejor experiencia en cada paso.</p></article>
+          <article class="card reason-card"><div class="reason-no">4</div><h4>Te guiamos humana y estratégicamente, antes y después del cambio.</h4><p class="muted">Acompañamos tanto el momento clínico como el emocional.</p></article>
+          <article class="card reason-card"><div class="reason-no">5</div><h4>Tu transformación no termina al regresar; le damos continuidad.</h4><p class="muted">Hacemos seguimiento para integrar lo vivido con tu regreso a casa.</p></article>
+          <article class="card reason-card"><div class="reason-no">+</div><h4>KAMI añade una puerta digital para volver a ti cuando lo necesites.</h4><p class="muted">Un refugio amable para respirar, conversar y sostener el proceso entre encuentros.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-copy">
+          <div class="eyebrow">Colombia como referente</div>
+          <h2 style="margin:14px 0 12px">Calidad internacional con una inversión más inteligente</h2>
+          <p>Colombia se ha posicionado como referente en América Latina gracias a una combinación de infraestructura, especialistas, atención humana y entornos favorables para una recuperación tranquila y consciente.</p>
+        </div>
+        <div class="grid-3">
+          <article class="card"><h3 style="font-size:1.36rem">Infraestructura moderna</h3><p class="muted">Tecnología avanzada con estándares internacionales y procesos clínicos sólidos.</p></article>
+          <article class="card"><h3 style="font-size:1.36rem">Especialistas certificados</h3><p class="muted">Trayectoria comprobada y experiencia global para sostener decisiones seguras.</p></article>
+          <article class="card"><h3 style="font-size:1.36rem">Atención cercana</h3><p class="muted">Una cultura de servicio que prioriza a la persona, no solo al procedimiento.</p></article>
+          <article class="card"><h3 style="font-size:1.36rem">Calidad + eficiencia</h3><p class="muted">Una combinación equilibrada entre calidad internacional e inversión más inteligente.</p></article>
+          <article class="card"><h3 style="font-size:1.36rem">Recuperación consciente</h3><p class="muted">Entornos naturales que favorecen el descanso, el ritmo pausado y la reconexión.</p></article>
+          <article class="card"><h3 style="font-size:1.36rem">Experiencia integral</h3><p class="muted">Bienestar, acompañamiento y transformación en un mismo recorrido.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="destinos">
+      <div class="container">
+        <div class="section-copy">
+          <div class="eyebrow">Nuestros destinos</div>
+          <h2 style="margin:14px 0 12px">Desde Colombia</h2>
+          <p>El mismo propósito, distintas atmósferas. Cada destino se selecciona por su capacidad de acompañar bienestar, calma y renovación.</p>
+        </div>
+        <div class="grid-4">
+          <article class="card destination-card">
+            <div class="destination-visual"><div class="badge">Bogotá</div></div>
+            <div class="content"><h3 style="font-size:1.42rem">Bogotá</h3><p class="muted">Bienestar, tranquilidad y renovación en la ciudad de las puertas abiertas.</p><div style="margin-top:14px"><span class="dest-link">Ver destino →</span></div></div>
+          </article>
+          <article class="card destination-card">
+            <div class="destination-visual"><div class="badge">Medellín</div></div>
+            <div class="content"><h3 style="font-size:1.42rem">Medellín</h3><p class="muted">El equilibrio perfecto entre naturaleza, bienestar y atención médica de primer nivel.</p><div style="margin-top:14px"><span class="dest-link">Ver destino →</span></div></div>
+          </article>
+          <article class="card destination-card">
+            <div class="destination-visual"><div class="badge">Manizales</div></div>
+            <div class="content"><h3 style="font-size:1.42rem">Manizales</h3><p class="muted">Pausa, introspección y renovación en el corazón del Eje Cafetero.</p><div style="margin-top:14px"><span class="dest-link">Ver destino →</span></div></div>
+          </article>
+          <article class="card destination-card">
+            <div class="destination-visual"><div class="badge">Santa Marta</div></div>
+            <div class="content"><h3 style="font-size:1.42rem">Santa Marta</h3><p class="muted">Renovación frente al mar, donde el Caribe se encuentra con la montaña.</p><div style="margin-top:14px"><span class="dest-link">Ver destino →</span></div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container doctor">
+        <div class="portrait">
+          <div class="cap"><b>Dr. Gustavo Velasquez</b><br>Co-CEO y Cofundador de MedHealingTours</div>
+        </div>
+        <div class="card">
+          <div class="eyebrow">Equipo fundador</div>
+          <h2 style="margin:14px 0 14px">Dr. Gustavo Velasquez</h2>
+          <p>El Dr. Gustavo Velasquez es médico con más de 25 años de experiencia en el sector salud, con una trayectoria que integra la práctica clínica, la dirección médica y el liderazgo de organizaciones de salud en América Latina y Estados Unidos.</p>
+          <p style="margin-top:14px">Tras ejercer como Director Médico en Latinoamérica, desarrolló gran parte de su carrera profesional en Estados Unidos, donde lideró la apertura y operación de múltiples instituciones de salud altamente reguladas, fortaleciendo su enfoque en calidad, seguridad, procesos y ética clínica.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="breath-section" id="respira">
+      <div class="container breath-grid">
+        <div>
+          <div class="section-copy">
+            <div class="eyebrow">Refugio de respiración consciente</div>
+            <h2 style="margin:14px 0 12px">Volver a ti es el comienzo de todo</h2>
+            <p>Quizá hoy sea uno de esos momentos. No necesitas tener todas las respuestas. Solo darte la oportunidad de volver a escucharte. Añadí un botón de respiración mucho más visible y una guía digital que se abre desde hero, KAMI y el botón flotante.</p>
+          </div>
+          <div class="card" style="margin-bottom:18px">
+            <div class="grid-2" style="gap:14px">
+              <button class="btn secondary" data-open-breath style="justify-content:flex-start">Inicia una conversación de orientación</button>
+              <button class="btn primary" data-open-breath style="justify-content:flex-start">Pausa consciente · Probar respirador digital</button>
+            </div>
+          </div>
+          <div class="pattern-grid" id="patternGrid"></div>
+        </div>
+        <aside class="breath-preview">
+          <div class="eyebrow" style="background:rgba(255,255,255,.09);color:#dff4ec">Selecciona tu respiración ideal</div>
+          <h3 style="margin-top:14px">Sincroniza tu pulso hoy</h3>
+          <p style="margin-top:8px;color:rgba(255,255,255,.74)">Calculada para acompañar distintos estados emocionales, energéticos y relacionales.</p>
+          <div class="preview-shell">
+            <div class="mini-breath">
+              <div id="previewPatternName" style="font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.7)">Necesito Calma</div>
+              <div class="breath-orb-wrap">
+                <div class="breath-progress" id="previewProgress"></div>
+                <div class="breath-orb" id="previewOrb"></div>
+              </div>
+              <div class="phase" id="previewPhase">Inhala…</div>
+              <div class="count" id="previewCount">4</div>
+              <div class="session-meta" id="previewCode">4-7-8</div>
+              <div class="controls">
+                <button class="start" id="previewStart">Iniciar</button>
+                <button class="stop" data-open-breath>Abrir guía completa</button>
+              </div>
+            </div>
+          </div>
+          <p style="font-size:12px;color:rgba(255,255,255,.62);margin-top:12px;text-align:center">También disponible como overlay desde cualquier parte de la página.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-copy">
+          <div class="eyebrow">Nuestra filosofía</div>
+          <h2 style="margin:14px 0 12px">No diseñamos experiencias iguales para todos</h2>
+          <p>Antes de recomendar cualquier camino, queremos comprender quién eres, cómo te sientes hoy y qué esperas transformar. Escuchar tu historia, comprender tus necesidades y descubrir contigo cuál es el camino que mejor puede ayudarte.</p>
+        </div>
+        <div class="grid-2">
+          <div class="card">
+            <h3>Esencia original</h3>
+            <p class="muted" style="margin-top:12px">Escuchar tu historia, comprender tus necesidades y descubrir contigo cuál es el camino que mejor puede ayudarte.</p>
+          </div>
+          <div class="card">
+            <h3>Método MedHealing</h3>
+            <p class="muted" style="margin-top:12px">Un acompañamiento científico, humano y pausado estructurado en cuatro momentos de presencia real.</p>
+            <div class="list-check" style="margin-top:14px">
+              <div><b>01 · Escucha profunda</b> Comprender tu historia.</div>
+              <div><b>02 · Diagnóstico propio</b> Tu mapa de bienestar.</div>
+              <div><b>03 · Presencia real</b> Inmersión en la tierra.</div>
+              <div><b>04 · Regreso a casa</b> Claridad sostenible.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-copy">
+          <div class="eyebrow">Tres experiencias, un mismo propósito</div>
+          <h2 style="margin:14px 0 12px">Elige cómo quieres volver a ti</h2>
+        </div>
+        <div class="experience-cards">
+          <article class="card exp-card">
+            <div class="exp-head"><span class="label">Despertar · Calma</span></div>
+            <div class="exp-body"><h3>3 días</h3><p class="muted" style="margin-top:10px">Un espacio breve y profundo para volver 
