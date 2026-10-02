@@ -1,0 +1,182 @@
+a escucharte. Tres días de silencio, respiración y naturaleza, para que la calma se instale en el cuerpo y no solo en el deseo.</p><div style="margin-top:18px"><a href="#contacto" class="dest-link">Orientación sobre este camino →</a></div></div>
+          </article>
+          <article class="card exp-card">
+            <div class="exp-head"><span class="label">Reconectar · Conexión</span></div>
+            <div class="exp-body"><h3>5 días</h3><p class="muted" style="margin-top:10px">Cinco días para recordar el vínculo. Medicina del descanso y presencia compartida, para que la conexión se sienta de nuevo en ti y en quienes amas.</p><div style="margin-top:18px"><a href="#contacto" class="dest-link">Orientación sobre este camino →</a></div></div>
+          </article>
+          <article class="card exp-card">
+            <div class="exp-head"><span class="label">Inmersión · Transformación</span></div>
+            <div class="exp-body"><h3>7 días</h3><p class="muted" style="margin-top:10px">Nuestra propuesta cumbre. Dedica tiempo exclusivo a tu crecimiento personal. Integra el silencio absoluto y el aire puro para estructurar cambios de vida profundos y duraderos.</p><div style="margin-top:18px"><a href="#contacto" class="dest-link">Orientación sobre este camino →</a></div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-copy">
+          <div class="eyebrow">Historias de transformación</div>
+          <h2 style="margin:14px 0 12px">Voces de retorno</h2>
+        </div>
+        <div class="testimonials">
+          <article class="card quote-card"><div class="stars">★★★★★</div><blockquote>“Pensé que necesitaba descansar. Descubrí que lo que necesitaba era escucharme.”</blockquote><div class="person"><b>Julián Restrepo</b><br>Austin, Texas</div></article>
+          <article class="card quote-card"><div class="stars">★★★★★</div><blockquote>“Llegué buscando una pausa. Me fui con una nueva manera de vivir.”</blockquote><div class="person"><b>Sofía Martínez</b><br>San Francisco, California</div></article>
+          <article class="card quote-card"><div class="stars">★★★★★</div><blockquote>“Pensaba que buscaba un viaje. Descubrí una nueva forma de cuidarme.”</blockquote><div class="person"><b>Sebastián Moreno</b><br>Denver, Colorado</div></article>
+          <article class="card quote-card"><div class="stars">★★★★★</div><blockquote>“No me quitó el control. Me enseñó a soltarlo un poco.”</blockquote><div class="person"><b>Jennifer Collins</b><br>New York, New York</div></article>
+          <article class="card quote-card"><div class="stars">★★★★★</div><blockquote>“No me exigió nada. Eso fue exactamente lo que necesitaba.”</blockquote><div class="person"><b>Robert Hayes</b><br>Dallas, Texas</div></article>
+          <article class="card quote-card"><div class="stars">★★★★★</div><blockquote>“No me sacó del juego. Me ayudó a jugar mejor.”</blockquote><div class="person"><b>David Chen</b><br>San Francisco, California</div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div class="container" style="position:relative;z-index:2">
+        <div class="section-copy" style="margin-bottom:18px">
+          <div class="eyebrow" style="background:rgba(255,255,255,.08);color:#dff4ec">Convergencia silenciosa</div>
+          <h2 style="margin:14px 0 12px;color:#fff">Descubramos juntos cuál es el camino para ti</h2>
+          <p>Solo un espacio seguro para conocerte, comprender lo que necesitas y ayudarte a descubrir la experiencia y el ritmo que mejor puede acompañarte en este momento de tu vida cotidiana.</p>
+          <p style="margin-top:12px">No es una venta. Es un espacio para escucharte. Duración sugerida: 30 minutos sin presiones.</p>
+        </div>
+        <div class="hero-actions">
+          <a href="#contacto" class="btn secondary">Iniciar conversación de orientación</a>
+          <button class="btn ghost" data-open-breath style="color:#fff">Pausa consciente</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <div class="container contact-grid">
+        <div>
+          <div class="section-copy">
+            <div class="eyebrow">Agenda tu asesoría gratuita</div>
+            <h2 style="margin:14px 0 12px">Déjanos tus datos y nosotros te contactamos</h2>
+            <p>Descubre una experiencia diseñada para ti y un asesor especializado te acompañará en cada etapa de tu proceso.</p>
+          </div>
+          <form class="card form-grid">
+            <div class="field"><label>Nombres y Apellidos</label><input type="text" placeholder="Tu nombre completo"></div>
+            <div class="field"><label>Correo electrónico</label><input type="email" placeholder="tu@email.com"></div>
+            <div class="field"><label>Número de celular</label><input type="tel" placeholder="+1"></div>
+            <div class="field"><label>Cuéntanos qué te gustaría transformar</label><textarea placeholder="Quiero más información sobre bienestar, acompañamiento y opciones disponibles..."></textarea></div>
+            <div style="display:flex;flex-wrap:wrap;gap:12px"><button class="btn primary" type="button">Reserva por WhatsApp</button><button class="btn secondary" type="button">Reserva por e-mail</button></div>
+          </form>
+        </div>
+        <aside class="card">
+          <h3>Tu primera conversación</h3>
+          <p class="muted" style="margin-top:12px">Hay momentos en la vida en los que seguir adelante no significa ir más rápido, sino detenerse, escucharse y volver a uno mismo. Ese es el camino que queremos recorrer contigo.</p>
+          <div class="divider" style="height:1px;background:var(--line);margin:18px 0"></div>
+          <div class="list-check">
+            <div>Contacto: <b>contacto@medhealingtours.com</b></div>
+            <div>Teléfono: <b>+1-9549-978422</b></div>
+            <div>KAMI puede acompañarte entre sesiones con respiración, conversación y contenido transformador.</div>
+          </div>
+          <div style="margin-top:22px"><button class="btn primary" style="width:100%" data-open-breath>Comenzar mi camino MedHealing</button></div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <div class="brand" style="margin-bottom:14px">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI0NiIgZmlsbD0iIzBmNGE0MCIvPjxwYXRoIGQ9Ik01MCAxN0M2NyAxNyA4MSAzMSA4MyA0OCA2OSA0MiA1NiA0OCA1MCA1OSA0NCA0OCAzMSA0MiAxNyA0OCAxOSAzMSAzMyAxNyA1MCAxN1oiIGZpbGw9IiNkNGFkNTIiLz48cGF0aCBkPSJNMjEgNjBjMTIgMTEgMjIgMTcgMjkgMTggNy0xIDE3LTcgMjktMTgtNCAxNy0xNiAyNy0yOSAzMC0xMy0zLTI1LTEzLTI5LTMwWiIgZmlsbD0iI2Q0YWQ1MiIvPjwvc3ZnPg==" alt="MedHealingTours" style="width:52px;height:52px" />
+          <div class="brand-copy"><strong>MedHealingTours</strong><span>Agenda tu asesoría gratuita</span></div>
+        </div>
+        <p class="muted">Descarga la App MedHealing y recibe acompañamiento personalizado, meditaciones, prácticas, contenido transformador y recomendaciones diseñadas para ayudarte a volver a ti.</p>
+        <div class="copyright">Copyright ©2026 | MedHealingTours</div>
+      </div>
+      <div>
+        <h3 style="font-size:1.35rem;margin-bottom:12px">Información de contacto</h3>
+        <div class="footer-links">
+          <a href="mailto:contacto@medhealingtours.com">contacto@medhealingtours.com</a>
+          <a href="tel:+19549978422">+1-9549-978422</a>
+        </div>
+      </div>
+      <div>
+        <h3 style="font-size:1.35rem;margin-bottom:12px">Enlaces de interés</h3>
+        <div class="footer-links">
+          <a href="#">Aviso legal</a>
+          <a href="#">Términos y condiciones</a>
+          <a href="#contacto">Agenda tu asesoría gratuita</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="float-breath" data-open-breath>
+    <span class="icon">◉</span>
+    <span>Respirar ahora</span>
+  </button>
+
+  <div class="modal" id="breathModal" aria-hidden="true">
+    <div class="modal-card">
+      <div class="modal-top">
+        <div>
+          <div class="eyebrow" style="background:rgba(255,255,255,.08);color:#dff4ec">Refugio de respiración consciente</div>
+          <h3 style="margin-top:10px">Guía digital KAMI</h3>
+        </div>
+        <button class="modal-close" id="closeBreath">×</button>
+      </div>
+      <div class="modal-shell">
+        <div id="modalPatternName" style="letter-spacing:.16em;text-transform:uppercase;font-size:12px;color:rgba(255,255,255,.7)">Necesito Calma</div>
+        <div class="breath-orb-wrap">
+          <div class="breath-progress" id="modalProgress"></div>
+          <div class="breath-orb" id="modalOrb"></div>
+        </div>
+        <div class="phase" id="modalPhase">Inhala…</div>
+        <div class="count" id="modalCount">4</div>
+        <div class="session-meta" id="modalMeta">4-7-8 · preparado para ti</div>
+        <div class="modal-controls">
+          <button class="start" id="modalStart">Iniciar</button>
+          <button class="soft" id="modalPause">Pausar</button>
+          <button class="soft" id="modalReset">Reiniciar</button>
+        </div>
+      </div>
+      <div class="modal-patterns" id="modalPatterns"></div>
+      <div class="modal-bottom">Respira sin forzar. Si quieres, puedes cerrar la guía en cualquier momento.</div>
+    </div>
+  </div>
+
+  <script>
+    const breathingPatterns = {
+      calma: {label:'Necesito Calma', description:'Estrés y sobrecarga mental', code:'4-7-8', parts:[['Inhala',4],['Pausa',7],['Exhala',8]]},
+      energia: {label:'Busco Energía', description:'Fatiga crónica y descanso celular', code:'4-4-4-4', parts:[['Inhala',4],['Pausa',4],['Exhala',4],['Pausa',4]]},
+      claridad: {label:'Encontrar Claridad', description:'Vacío, propósito y niebla mental', code:'6-2-4', parts:[['Inhala',6],['Pausa',2],['Exhala',4]]},
+      emocional: {label:'Sanar Emocionalmente', description:'Duelos, crisis y transiciones', code:'4-4-6-2', parts:[['Inhala',4],['Pausa',4],['Exhala',6],['Pausa',2]]},
+      relaciones: {label:'Mejorar Relaciones', description:'Empatía, pareja y comunicación', code:'5.5 s', parts:[['Inhala',5.5],['Exhala',5.5]]},
+      bienestar: {label:'Potenciar mi Bienestar', description:'Longevidad, rendimiento y prevención', code:'5-2-5-2', parts:[['Inhala',5],['Pausa',2],['Exhala',5],['Pausa',2]]}
+    };
+
+    const patternGrid = document.getElementById('patternGrid');
+    const modalPatterns = document.getElementById('modalPatterns');
+    let selected = 'calma';
+    let previewTimer = null;
+    let previewState = {partIndex:0, partElapsed:0, started:false};
+    let modalTimer = null;
+    let modalState = {partIndex:0, partElapsed:0, started:false, paused:false};
+
+    function renderPatternCards() {
+      patternGrid.innerHTML = '';
+      modalPatterns.innerHTML = '';
+      Object.entries(breathingPatterns).forEach(([key, item]) => {
+        const card = document.createElement('article');
+        card.className = 'pattern-card' + (key === selected ? ' active' : '');
+        card.innerHTML = `<strong>${item.label}</strong><div class="muted" style="font-size:13px;margin-top:6px">${item.description}</div><div class="code">${item.code}</div><small>Seleccionada para acompañar este tipo de estado o necesidad.</small>`;
+        card.addEventListener('click', () => selectPattern(key, true));
+        patternGrid.appendChild(card);
+
+        const row = document.createElement('div');
+        row.className = 'modal-pattern' + (key === selected ? ' active' : '');
+        row.innerHTML = `<div><b>${item.label}</b><span>${item.description}</span></div><div style="font-family:var(--serif);font-size:20px">${item.code}</div>`;
+        row.addEventListener('click', () => selectPattern(key, false));
+        modalPatterns.appendChild(row);
+      });
+      syncPatternUI();
+    }
+
+    function syncPatternUI() {
+      [...patternGrid.children].forEach((el, i) => el.classList.toggle('active', Object.keys(breathingPatterns)[i] === selected));
+      [...modalPatterns.children].forEach((el, i) => el.classList.toggle('active', Object.keys(breathingPatterns)[i] === selected));
+      const item = breathingPatterns[selected];
+      document.getElementById('previewPatternName').textContent = item.label;
+      document.getElementById('previewCode'
