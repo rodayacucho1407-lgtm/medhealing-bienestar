@@ -1,0 +1,141 @@
+).textContent = item.code;
+      document.getElementById('modalPatternName').textContent = item.label;
+      document.getElementById('modalMeta').textContent = item.code + ' · preparado para ti';
+      resetPreview();
+      resetModal();
+    }
+
+    function selectPattern(key, openModalAfter) {
+      selected = key;
+      renderPatternCards();
+      if (openModalAfter) openBreathModal();
+    }
+
+    function applyBreathVisual(orb, phaseName, duration) {
+      orb.classList.toggle('hold', phaseName === 'Pausa');
+      orb.style.transition = `transform ${duration}s linear, filter .35s ease`;
+      if (phaseName === 'Inhala') orb.style.transform = 'scale(1.18)';
+      else if (phaseName === 'Exhala') orb.style.transform = 'scale(.78)';
+      else orb.style.transform = 'scale(1.02)';
+    }
+
+    function resetPreview() {
+      clearInterval(previewTimer);
+      previewTimer = null;
+      previewState = {partIndex:0, partElapsed:0, started:false};
+      document.getElementById('previewPhase').textContent = 'Inhala…';
+      document.getElementById('previewCount').textContent = '4';
+      document.getElementById('previewProgress').style.setProperty('--deg','0deg');
+      const orb = document.getElementById('previewOrb');
+      orb.style.transition = 'none';
+      orb.style.transform = 'scale(.78)';
+      orb.classList.remove('hold');
+      requestAnimationFrame(() => requestAnimationFrame(() => orb.style.transition = 'transform 4s linear, filter .35s ease'));
+    }
+
+    function startPreview() {
+      if (previewTimer) clearInterval(previewTimer);
+      previewState = {partIndex:0, partElapsed:0, started:true};
+      const item = breathingPatterns[selected];
+      applyBreathVisual(document.getElementById('previewOrb'), item.parts[0][0], item.parts[0][1]);
+      previewTimer = setInterval(() => tickPreview(), 100);
+    }
+
+    function tickPreview() {
+      const item = breathingPatterns[selected];
+      const part = item.parts[previewState.partIndex];
+      previewState.partElapsed += 0.1;
+      const left = Math.max(0, Math.ceil(part[1] - previewState.partElapsed));
+      document.getElementById('previewPhase').textContent = part[0] + '…';
+      document.getElementById('previewCount').textContent = left;
+      document.getElementById('previewProgress').style.setProperty('--deg', `${Math.min(360,(previewState.partElapsed / part[1]) * 360)}deg`);
+      if (previewState.partElapsed >= part[1] - 0.01) {
+        previewState.partElapsed = 0;
+        previewState.partIndex = (previewState.partIndex + 1) % item.parts.length;
+        const next = item.parts[previewState.partIndex];
+        applyBreathVisual(document.getElementById('previewOrb'), next[0], next[1]);
+      }
+    }
+
+    function resetModal() {
+      clearInterval(modalTimer);
+      modalTimer = null;
+      modalState = {partIndex:0, partElapsed:0, started:false, paused:false};
+      document.getElementById('modalPhase').textContent = 'Inhala…';
+      document.getElementById('modalCount').textContent = '4';
+      document.getElementById('modalProgress').style.setProperty('--deg','0deg');
+      const orb = document.getElementById('modalOrb');
+      orb.style.transition = 'none';
+      orb.style.transform = 'scale(.78)';
+      orb.classList.remove('hold');
+      requestAnimationFrame(() => requestAnimationFrame(() => orb.style.transition = 'transform 4s linear, filter .35s ease'));
+      document.getElementById('modalStart').textContent = 'Iniciar';
+      document.getElementById('modalPause').textContent = 'Pausar';
+    }
+
+    function startModalBreath() {
+      if (!modalState.started) {
+        modalState.started = true;
+        modalState.paused = false;
+        modalState.partIndex = 0;
+        modalState.partElapsed = 0;
+        const first = breathingPatterns[selected].parts[0];
+        applyBreathVisual(document.getElementById('modalOrb'), first[0], first[1]);
+        document.getElementById('modalStart').textContent = 'Reiniciar';
+        if (modalTimer) clearInterval(modalTimer);
+        modalTimer = setInterval(tickModal, 100);
+        return;
+      }
+      resetModal();
+      startModalBreath();
+    }
+
+    function pauseModalBreath() {
+      if (!modalState.started) return;
+      modalState.paused = !modalState.paused;
+      document.getElementById('modalPause').textContent = modalState.paused ? 'Continuar' : 'Pausar';
+    }
+
+    function tickModal() {
+      if (modalState.paused) return;
+      const item = breathingPatterns[selected];
+      const part = item.parts[modalState.partIndex];
+      modalState.partElapsed += 0.1;
+      const left = Math.max(0, Math.ceil(part[1] - modalState.partElapsed));
+      document.getElementById('modalPhase').textContent = part[0] + '…';
+      document.getElementById('modalCount').textContent = left;
+      document.getElementById('modalProgress').style.setProperty('--deg', `${Math.min(360,(modalState.partElapsed / part[1]) * 360)}deg`);
+      if (modalState.partElapsed >= part[1] - 0.01) {
+        modalState.partElapsed = 0;
+        modalState.partIndex = (modalState.partIndex + 1) % item.parts.length;
+        const next = item.parts[modalState.partIndex];
+        applyBreathVisual(document.getElementById('modalOrb'), next[0], next[1]);
+      }
+    }
+
+    const modal = document.getElementById('breathModal');
+    function openBreathModal() {
+      modal.classList.add('show');
+      modal.setAttribute('aria-hidden','false');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeBreathModal() {
+      modal.classList.remove('show');
+      modal.setAttribute('aria-hidden','true');
+      document.body.style.overflow = '';
+    }
+
+    document.querySelectorAll('[data-open-breath]').forEach(btn => btn.addEventListener('click', openBreathModal));
+    document.getElementById('closeBreath').addEventListener('click', closeBreathModal);
+    modal.addEventListener('click', (e) => { if (e.target === modal) closeBreathModal(); });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeBreathModal(); });
+    document.getElementById('previewStart').addEventListener('click', startPreview);
+    document.getElementById('modalStart').addEventListener('click', startModalBreath);
+    document.getElementById('modalPause').addEventListener('click', pauseModalBreath);
+    document.getElementById('modalReset').addEventListener('click', resetModal);
+
+    renderPatternCards();
+    startPreview();
+  </script>
+</body>
+</html>
