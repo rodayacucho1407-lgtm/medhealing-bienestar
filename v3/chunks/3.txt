@@ -1,0 +1,184 @@
+   <button class="menu-btn" aria-label="menú">☰</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow">MedHealing + KAMI</div>
+          <h1>No es solo un lugar al que vienes…<br>es un lugar donde puedes volver a ti.</h1>
+          <p class="lead">Experiencias de salud, bienestar y transformación en Latinoamérica. Diseñamos un camino humano, estratégico y acompañado para que tu proceso se viva con seguridad, calma y sentido.</p>
+          <div class="hero-actions">
+            <a href="#contacto" class="btn primary">Comienza tu cambio hoy</a>
+            <button class="btn secondary" data-open-breath>Probar respirador digital</button>
+          </div>
+          <div class="mini-note">
+            <span>Bienestar integral</span>
+            <span>Acompañamiento transformacional</span>
+            <span>Experiencias en Colombia</span>
+          </div>
+        </div>
+        <div class="visual-wrap">
+          <div class="hero-panel">
+            <div class="quote-script">Llegas. Te escucha. Te acompaña.<small>Y algo en ti ya se siente más liviano.</small></div>
+            <div class="phone-stack">
+              <div class="phone">
+                <div class="phone-top"><div class="phone-notch"></div></div>
+                <div class="phone-screen">
+                  <div class="phone-body">
+                    <div>
+                      <div class="kami-thin">KAMI</div>
+                      <div class="phone-tag">TU BIENESTAR<br>TE ACOMPAÑA<br>SIEMPRE</div>
+                    </div>
+                    <div class="phone-card">
+                      <strong>Tu espacio seguro para pausar, sentir y volver a ti.</strong>
+                      <span>Una experiencia diaria para sentirte acompañado, sin presión, sin menús, y con una respiración guiada siempre a la mano.</span>
+                      <div class="phone-actions">
+                        <button class="pill-btn" data-open-breath>Respirar ahora</button>
+                        <button class="pill-btn alt" onclick="document.getElementById('kami').scrollIntoView({behavior:'smooth'})">Ver flujo</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="hero-float">
+              <strong>Pausa consciente</strong>
+              <p>Un botón directo para abrir el refugio de respiración consciente desde cualquier parte de la página.</p>
+              <button class="btn primary" style="width:100%;padding:13px 14px" data-open-breath>Iniciar respiración</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="kami">
+      <div class="container">
+        <div class="section-copy">
+          <div class="eyebrow">Propuesta KAMI</div>
+          <h2 style="margin:14px 0 12px">Tus primeros 3 minutos</h2>
+          <p>Adapté el flujo visual para acercarlo más al ejemplo que enviaste: pantallas más editoriales, atmósfera premium, KAMI con tipografía delgada y espaciada, y una respiración mucho más protagonista dentro de la experiencia.</p>
+        </div>
+        <div class="card prototype-board">
+          <div class="phones-row">
+            <article class="mini-phone">
+              <div class="mini-frame light">
+                <div class="big-kami">KAMI</div>
+                <div class="txt">Tu espacio seguro para ser, sentir y crecer.</div>
+              </div>
+              <div class="mini-footer"><div class="stepno">1</div><h4>Llegas</h4><p>Una bienvenida cálida y visualmente envolvente que recibe sin pedir demasiado.</p></div>
+            </article>
+            <article class="mini-phone">
+              <div class="mini-frame">
+                <div class="kami-header">KAMI</div>
+                <div class="txt">Hola, Ana. ¿Cómo llegas hoy? Calma · Ansiedad · Tristeza · Cansancio</div>
+              </div>
+              <div class="mini-footer"><div class="stepno">2</div><h4>Te escucha</h4><p>Puedes expresarte con opciones simples, escribir o usar tu voz sin presión.</p></div>
+            </article>
+            <article class="mini-phone">
+              <div class="mini-frame dark">
+                <div class="kami-header">KAMI</div>
+                <div class="orb"></div>
+                <div class="txt dark">Gracias por compartirlo. Estoy aquí contigo. Podemos hacer una pausa.</div>
+              </div>
+              <div class="mini-footer"><div class="stepno">3</div><h4>Responde a ti</h4><p>KAMI valida, acompaña y propone una acción concreta en vez de dejarte navegando solo.</p></div>
+            </article>
+            <article class="mini-phone">
+              <div class="mini-frame light">
+                <div class="kami-header" style="color:#455f59">KAMI</div>
+                <div class="txt">Vamos a hacer una pausa juntas. Solo un momento para ti.<br><br><b>Respiración consciente · 1 minuto</b></div>
+              </div>
+              <div class="mini-footer"><div class="stepno">4</div><h4>Te acompaña</h4><p>La experiencia sugiere una práctica amable y sencilla, sin exceso de menús.</p></div>
+            </article>
+            <article class="mini-phone">
+              <div class="mini-frame dark">
+                <div class="kami-header">KAMI</div>
+                <div class="orb"></div>
+                <div class="txt dark">Inhala… · exhala · respiración guiada</div>
+              </div>
+              <div class="mini-footer"><div class="stepno">5</div><h4>Respiran juntos</h4><p>Aquí se integra el botón de respiración tal como pidió tu jefa: más visible y más central.</p></div>
+            </article>
+            <article class="mini-phone">
+              <div class="mini-frame light">
+                <div class="kami-header" style="color:#455f59">KAMI</div>
+                <div class="txt">¿Qué notas en ti ahora? Me siento más tranquilo · Siento más claridad</div>
+              </div>
+              <div class="mini-footer"><div class="stepno">6</div><h4>Te das cuenta</h4><p>Una pequeña pausa de observación, sin juicio ni puntuaciones.</p></div>
+            </article>
+            <article class="mini-phone">
+              <div class="mini-frame dark">
+                <div class="kami-header">KAMI</div>
+                <div class="txt dark">Gracias por estar aquí. Cuando quieras, seguimos juntas.</div>
+              </div>
+              <div class="mini-footer"><div class="stepno">7</div><h4>Quieres volver</h4><p>El cierre es cálido, elegante y deja una sensación de continuidad.</p></div>
+            </article>
+          </div>
+        </div>
+
+        <div style="height:18px"></div>
+        <div class="card">
+          <div class="section-copy" style="margin-bottom:18px">
+            <h3>Tu universo KAMI</h3>
+            <p class="muted">Después de los 3 minutos, se abre un espacio más completo y coherente con el estado emocional de la persona.</p>
+          </div>
+          <div class="subgrid">
+            <article class="feature-preview">
+              <div class="preview-screen">
+                <div class="preview-chip"><b>Hoy</b><br>Tu momento del día, una pausa para reconectar y recomendaciones cálidas.</div>
+              </div>
+              <div class="preview-caption"><b>Hoy contigo</b><span>El corazón de la experiencia diaria.</span></div>
+            </article>
+            <article class="feature-preview">
+              <div class="preview-screen dark"><div class="orb" style="top:50%;left:50%;width:96px;height:96px;box-shadow:0 0 0 20px rgba(255,255,255,.08),0 0 60px rgba(162,236,214,.28)"></div><div class="preview-chip"><b>Respira</b><br>Guías suaves, libres y musicales para volver a ti.</div></div>
+              <div class="preview-caption"><b>Respira</b><span>Acceso directo a la pausa consciente.</span></div>
+            </article>
+            <article class="feature-preview">
+              <div class="preview-screen"><div class="preview-chip"><b>Conversa con KAMI</b><br>Escribe o habla a tu ritmo y recibe acompañamiento breve.</div></div>
+              <div class="preview-caption"><b>Conversa</b><span>Una conversación simple y siempre disponible.</span></div>
+            </article>
+            <article class="feature-preview">
+              <div class="preview-screen"><div class="preview-chip"><b>Tu camino</b><br>Pequeños pasos, grandes cambios. Un recorrido amable y visual.</div></div>
+              <div class="preview-caption"><b>Tu camino</b><span>Seguimiento emocional, no gamificación.</span></div>
+            </article>
+            <article class="feature-preview">
+              <div class="preview-screen"><div class="preview-chip"><b>Biblioteca</b><br>Prácticas, contenidos y audios para distintos momentos del día.</div></div>
+              <div class="preview-caption"><b>Biblioteca</b><span>Un refugio de recursos para cada momento.</span></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="especialidades">
+      <div class="container">
+        <div class="section-copy">
+          <div class="eyebrow">Nuestras especialidades</div>
+          <h2 style="margin:14px 0 12px">Bienestar Integral</h2>
+          <p>En MedHealing Tours aplicamos una metodología propia de atención personalizada, basada en que cada persona tiene necesidades únicas. A través de procesos de armonización y reconexión en entornos naturales, y con el acompañamiento de terapeutas calificados, diseñamos experiencias orientadas a recuperar el equilibrio físico, emocional y energético.</p>
+        </div>
+        <div class="grid-3">
+          <article class="card specialty"><div class="iconbox">✦</div><h3>Acompañamiento consciente</h3><p class="muted">Orientación cálida, humana y estratégica antes, durante y después de cada experiencia.</p></article>
+          <article class="card specialty"><div class="iconbox">☽</div><h3>Recuperación con bienestar</h3><p class="muted">Espacios que integran descanso, reconexión y atención centrada en la persona, no solo en el procedimiento.</p></article>
+          <article class="card specialty"><div class="iconbox">❈</div><h3>Transformación integral</h3><p class="muted">Experiencias que conectan cuerpo, mente y entorno para sostener cambios reales y duraderos.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="metodo">
+      <div class="container process-wrap">
+        <div>
+          <div class="section-copy">
+            <div class="eyebrow">Camino hacia el Bienestar Integral</div>
+            <h2 style="margin:14px 0 12px">Tu proceso de transformación</h2>
+          </div>
+          <div class="process-steps">
+            <div class="step-card"><div class="step-index">1</div><div><h3 style="font-size:1.32rem">Agenda tu evaluación inicial</h3><p class="muted">El primer paso es abrir una conversación segura para comprender lo que hoy necesitas.</p></div></div>
+            <div class="step-card"><div class="step-index">2</div><div><h3 style="font-size:1.32rem">Escuchamos tu historia y construimos contigo la mejor decisión</h3><p class="muted">No diseñamos experiencias iguales para todos. Primero escuchamos, luego proponemos.</p></div></div>
+            <div class="step-card"><div class="step-index">3</div><div><h3 style="font-size:1.32rem">Te acompañamos física y emocionalmente durante tu estadía</h3><p class="muted">La experiencia se vive con presencia real, contención humana y coordinación estratégica.</p></div></div>
+            <div class="step-card"><div class="step-index">4</div><div><h3 style="font-size:1.32rem">Seguimos a tu lado después de tu regreso</h3><p class="muted">La transformación no termina al volver a casa; le damos continuidad para sostenerla.</p></div></div>
+          </div>
+          <div style="margin-top:20px"><a class="btn primary" href="#contacto">Comienza tu cambio hoy →</a></div>
+        </div>
+        <asid
