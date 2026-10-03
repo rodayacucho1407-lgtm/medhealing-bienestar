@@ -9,12 +9,13 @@
 <meta name="apple-mobile-web-app-title" content="KAMI">
 <title>KAMI · MedHealingTours</title>
 <style>
-*{box-sizing:border-box}html,body{margin:0;height:100%;overflow:hidden;background:#dfe9e5;font-family:system-ui,-apple-system,Segoe UI,sans-serif}body{display:grid;place-items:center}.shell{position:relative;width:100%;height:100dvh;max-width:430px;background:#f7f1e7;overflow:hidden;box-shadow:0 0 70px rgba(20,61,56,.16)}iframe{display:block;width:100%;height:100%;border:0;background:#f7f1e7}@media(min-width:700px){body{background:radial-gradient(circle at 50% 0,#eff5f1,#dbe7e2 58%,#cad8d3)}.shell{height:min(900px,100dvh);border-radius:34px;box-shadow:0 28px 90px rgba(14,55,50,.22)}}
+*{box-sizing:border-box}html,body{margin:0;height:100%;overflow:hidden;background:#dfe9e5;font-family:system-ui,-apple-system,Segoe UI,sans-serif}body{display:grid;place-items:center}.shell{position:relative;width:100%;height:100dvh;max-width:430px;background:#f7f1e7;overflow:hidden;box-shadow:0 0 70px rgba(20,61,56,.16)}iframe{display:block;width:100%;height:100%;border:0;background:#f7f1e7}@media(min-width:700px){body{background:radial-gradient(circle at 50% 0,#eff5f1,#dbe7e2 58%,#cad8d3)}.shell{height:min(900px,calc(100dvh - 36px));border-radius:38px;box-shadow:0 28px 90px rgba(14,55,50,.22)}}
 </style>
 </head>
 <body>
-<div class="shell"><iframe id="kamiApp" src="/v5/" title="KAMI"></iframe></div>
+<div class="shell"><iframe id="kamiApp" src="/phase1-preview.html" title="KAMI"></iframe></div>
 <script>
+const logo='data:image/webp;base64,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';
 const frame=document.getElementById('kamiApp');
 frame.addEventListener('load',()=>{
   try{
@@ -25,31 +26,69 @@ frame.addEventListener('load',()=>{
       .stage{height:100dvh!important;min-height:0!important;padding:0!important;display:block!important;background:#f7f1e7!important}
       .phone{position:relative!important;width:100%!important;max-width:none!important;height:100dvh!important;max-height:none!important;border-radius:0!important;border:0!important;box-shadow:none!important;margin:0!important}
       .screen{overscroll-behavior:contain!important}
-      .welcomeBg{background:linear-gradient(180deg,rgba(1,45,43,.08),rgba(1,49,46,.26) 40%,rgba(4,45,42,.86) 100%),url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1000&q=88') center/cover!important}
-      .welcome{padding-top:max(56px,env(safe-area-inset-top))!important;padding-bottom:max(24px,env(safe-area-inset-bottom))!important;justify-content:flex-start!important}
-      .kamiCoverOrb{width:158px;height:158px;border-radius:50%;margin:18px auto 22px;background:radial-gradient(circle at 34% 28%,#fff 0 12%,#dff9f2 25%,#91d3c4 50%,#449386 74%,#0b5954 100%);box-shadow:0 0 0 18px rgba(255,255,255,.08),0 0 62px rgba(138,235,211,.34),inset 0 0 28px rgba(255,255,255,.82);position:relative;animation:orbFloat 5s ease-in-out infinite}
-      .kamiCoverOrb:before{content:'';position:absolute;right:34px;top:30px;width:26px;height:26px;border-radius:50%;background:rgba(255,255,255,.86);filter:blur(6px)}
-      .kamiCoverOrb:after{content:'❦';position:absolute;left:50%;bottom:13px;transform:translateX(-50%);font-size:24px;color:rgba(8,83,76,.92)}
-      @keyframes orbFloat{50%{transform:translateY(-7px) scale(1.025)}}
-      .welcome .kami{font-size:50px!important;color:#fff!important;letter-spacing:.28em!important;text-shadow:0 2px 18px rgba(0,0,0,.18)!important;margin-top:0!important}
-      .welcome .tagline{color:#f6f1e8!important;font-size:10px!important;letter-spacing:.22em!important;line-height:1.72!important;margin-top:8px!important}
-      .welcomeLead{font-size:20px!important;margin-top:auto!important;text-shadow:0 1px 10px rgba(0,0,0,.18)}
-      .welcome .btn.light{background:rgba(8,75,70,.64)!important;color:#fff!important;border:1px solid rgba(255,255,255,.34)!important;backdrop-filter:blur(9px)}
-      .welcome .btn.ghost{background:rgba(255,255,255,.08)!important}
-      .nav .kamiNav span{width:46px!important;height:46px!important;border-radius:50%!important;background:radial-gradient(circle at 34% 28%,#fff 0 14%,#e0faf3 28%,#8fd2c3 54%,#3d9184 76%,#0b5954 100%)!important;color:transparent!important;box-shadow:0 10px 24px rgba(11,89,84,.24),inset 0 0 14px rgba(255,255,255,.72)!important;margin:-18px auto 2px!important;position:relative!important}
-      .nav .kamiNav span:after{content:'';position:absolute;right:12px;top:11px;width:9px;height:9px;border-radius:50%;background:rgba(255,255,255,.9)}
+      .heroWelcome{background:linear-gradient(180deg,rgba(1,45,43,.06),rgba(1,49,46,.22) 40%,rgba(4,45,42,.88) 100%),url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1000&q=88') center/cover!important}
+      .welcomeContent{padding-top:max(64px,env(safe-area-inset-top))!important;padding-bottom:max(24px,env(safe-area-inset-bottom))!important}
+      .welcomeContent .kami{color:#fff!important;font-size:52px!important;text-shadow:0 2px 18px rgba(0,0,0,.2)!important}
+      .welcomeContent .tagline{color:#f7f0e5!important;font-size:10px!important;letter-spacing:.22em!important;line-height:1.7!important;margin-top:10px!important}
+      .coverOrb{width:150px;height:150px;border-radius:50%;margin:34px auto 16px;background:radial-gradient(circle at 34% 28%,rgba(255,255,255,.98) 0 12%,rgba(226,250,244,.86) 25%,rgba(148,219,203,.58) 49%,rgba(63,146,132,.38) 72%,rgba(8,64,60,.16) 100%);box-shadow:0 0 0 18px rgba(255,255,255,.08),0 0 64px rgba(135,236,210,.36),inset 0 0 32px rgba(255,255,255,.86);animation:coverFloat 5s ease-in-out infinite}
+      @keyframes coverFloat{50%{transform:translateY(-7px) scale(1.03)}}
+      .mhtMark{display:flex;align-items:center;justify-content:center;gap:9px;margin-top:14px;color:rgba(255,255,255,.82);font-size:10px;letter-spacing:.05em}.mhtMark img{width:34px;height:34px;object-fit:contain;border-radius:50%}
+      .nav{grid-template-columns:repeat(3,1fr)!important}.nav button[data-id='kamiPage'] b{width:44px;height:44px;border-radius:50%;margin:-17px auto 2px!important;background:radial-gradient(circle at 34% 28%,#fff 0 14%,#e0faf3 28%,#8fd2c3 54%,#3d9184 76%,#0b5954 100%);color:transparent!important;box-shadow:0 9px 22px rgba(11,89,84,.24),inset 0 0 14px rgba(255,255,255,.72)}
+      .bubble.k{position:relative;padding-left:54px!important;border-top-left-radius:8px!important}.bubble.k:before{content:'';position:absolute;left:13px;top:12px;width:30px;height:30px;border-radius:50%;background:radial-gradient(circle at 50% 35%,#fff 0 17%,#fff5e5 36%,#9ddbd0 63%,#3a8f82 100%);box-shadow:0 0 14px rgba(132,219,208,.35)}.bubble.u{border-top-right-radius:8px!important}
+      .breathPicker{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:15px 0 4px}.breathPicker button{border:1px solid rgba(255,255,255,.18);border-radius:16px;padding:10px 8px;background:rgba(255,255,255,.08);color:#fff;font-size:10px;line-height:1.25}.breathPicker button.active{background:#fff;color:#0b5954;font-weight:700}.breathPicker small{display:block;opacity:.7;font-size:9px;margin-top:3px}
+      .breathQuick{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin:14px 0 0}.breathQuick button{border:1px solid rgba(11,89,84,.09);background:#fff;border-radius:18px;padding:12px;text-align:left;color:#243b39;box-shadow:0 8px 20px rgba(35,69,64,.05)}.breathQuick b{display:block;font-family:'Cormorant Garamond',serif;font-size:18px;color:#0b5954}.breathQuick small{display:block;color:#7d7b73;font-size:9px;margin-top:4px;line-height:1.35}
+      .todayMiniTitle{font-family:'Cormorant Garamond',serif;font-size:23px;margin:22px 0 10px}.todayBreathStrip{display:flex;gap:9px;overflow:auto;padding-bottom:3px;scrollbar-width:none}.todayBreathStrip::-webkit-scrollbar{display:none}.todayBreathStrip button{min-width:142px;border:0;border-radius:20px;padding:13px;background:linear-gradient(150deg,#0e675f,#0a4b47);color:#fff;text-align:left}.todayBreathStrip b{display:block;font-size:12px}.todayBreathStrip span{display:block;font-size:10px;opacity:.75;margin-top:4px}
+      .logoSpace{display:flex;align-items:center;gap:11px;background:#fff;border:1px solid rgba(11,89,84,.06);border-radius:21px;padding:12px;margin:16px 0}.logoSpace img{width:48px;height:48px;object-fit:contain}.logoSpace strong{display:block;font-size:13px}.logoSpace small{color:#7d7b73;font-size:10px;line-height:1.35}
       @media(min-width:700px){.phone{height:100%!important}}
     `;
     d.head.appendChild(style);
-    const welcome=d.querySelector('#s1 .welcome');
-    if(welcome && !welcome.querySelector('.kamiCoverOrb')){
-      const orb=d.createElement('div');orb.className='kamiCoverOrb';welcome.insertBefore(orb,welcome.firstChild);
+
+    const welcome=d.querySelector('#welcome .welcomeContent');
+    if(welcome){
+      const tag=welcome.querySelector('.tagline'); if(tag) tag.innerHTML='TU ESPACIO SEGURO<br>PARA SENTIR, SOLTAR<br>Y VOLVER A TI';
+      if(!welcome.querySelector('.coverOrb')){const orb=d.createElement('div');orb.className='coverOrb';tag.insertAdjacentElement('afterend',orb)}
+      const copy=welcome.querySelector('p'); if(copy) copy.textContent='Tu bienestar te acompaña siempre.';
+      if(!welcome.querySelector('.mhtMark')){const m=d.createElement('div');m.className='mhtMark';m.innerHTML='<img src="'+logo+'"><span>MedHealingTours · Bienestar Integral</span>';welcome.appendChild(m)}
     }
-    const tag=d.querySelector('#s1 .tagline');if(tag)tag.innerHTML='TU ESPACIO SEGURO<br>PARA SENTIR, SOLTAR<br>Y VOLVER A TI';
-    const lead=d.querySelector('#s1 .welcomeLead');if(lead)lead.textContent='Tu bienestar te acompaña siempre.';
-    const kamiNav=d.querySelector('.nav .kamiNav');if(kamiNav){const txt=[...kamiNav.childNodes].find(n=>n.nodeType===3);if(txt)txt.textContent='KAMI';}
-  }catch(e){console.warn(e)}
+
+    const space=d.getElementById('space');
+    if(space && !space.querySelector('.logoSpace')){const title=space.querySelector('.title');const box=d.createElement('div');box.className='logoSpace';box.innerHTML='<img src="'+logo+'"><div><strong>MedHealingTours</strong><small>Tu bienestar te acompaña siempre.<br>Experiencias de salud, bienestar y transformación.</small></div>';title.insertAdjacentElement('afterend',box)}
+
+    const patterns={
+      calma:{name:'Necesito calma',code:'4 · 7 · 8',desc:'Estrés y sobrecarga',parts:[['Inhala',4,'in'],['Pausa',7,'hold'],['Exhala',8,'out']]},
+      energia:{name:'Busco energía',code:'4 · 4 · 4 · 4',desc:'Presencia y vitalidad',parts:[['Inhala',4,'in'],['Pausa',4,'hold'],['Exhala',4,'out'],['Pausa',4,'hold']]},
+      claridad:{name:'Encontrar claridad',code:'6 · 2 · 4',desc:'Enfoque y mente despejada',parts:[['Inhala',6,'in'],['Pausa',2,'hold'],['Exhala',4,'out']]},
+      emocional:{name:'Sanar emocionalmente',code:'4 · 4 · 6 · 2',desc:'Transiciones y emociones',parts:[['Inhala',4,'in'],['Pausa',4,'hold'],['Exhala',6,'out'],['Pausa',2,'hold']]},
+      relaciones:{name:'Mejorar relaciones',code:'5.5 s',desc:'Empatía y conexión',parts:[['Inhala',5.5,'in'],['Exhala',5.5,'out']]},
+      bienestar:{name:'Potenciar bienestar',code:'5 · 2 · 5 · 2',desc:'Equilibrio integral',parts:[['Inhala',5,'in'],['Pausa',2,'hold'],['Exhala',5,'out'],['Pausa',2,'hold']]}
+    };
+    w.kamiPatterns=patterns;
+
+    const kamiPage=d.getElementById('kamiPage');
+    if(kamiPage && !kamiPage.querySelector('.breathQuick')){const sug=kamiPage.querySelector('.suggestions');const q=d.createElement('div');q.className='breathQuick';q.innerHTML=Object.entries(patterns).map(([k,p])=>`<button data-breath="${k}"><b>${p.code}</b>${p.name}<small>${p.desc}</small></button>`).join('');sug.insertAdjacentElement('afterend',q);q.querySelectorAll('button').forEach(b=>b.onclick=()=>w.startBreath(b.dataset.breath));}
+
+    const today=d.getElementById('today');
+    if(today && !today.querySelector('.todayBreathStrip')){const intro=today.querySelector('.muted');const h=d.createElement('div');h.className='todayMiniTitle';h.textContent='Respira según lo que necesitas';const strip=d.createElement('div');strip.className='todayBreathStrip';strip.innerHTML=Object.entries(patterns).map(([k,p])=>`<button data-breath="${k}"><b>${p.name}</b><span>${p.code} · ${p.desc}</span></button>`).join('');intro.insertAdjacentElement('afterend',h);h.insertAdjacentElement('afterend',strip);strip.querySelectorAll('button').forEach(b=>b.onclick=()=>w.startBreath(b.dataset.breath));}
+
+    const breath=d.getElementById('breath');
+    if(breath && !breath.querySelector('.breathPicker')){const orb=breath.querySelector('#breathOrb');const picker=d.createElement('div');picker.className='breathPicker';picker.id='breathPicker';picker.innerHTML=Object.entries(patterns).map(([k,p])=>`<button data-breath="${k}">${p.name}<small>${p.code}</small></button>`).join('');orb.insertAdjacentElement('beforebegin',picker);picker.querySelectorAll('button').forEach(b=>b.onclick=()=>w.chooseBreath(b.dataset.breath));}
+
+    const script=d.createElement('script');
+    script.textContent=`
+      let activeBreath='calma';
+      function chooseBreath(key){activeBreath=key; if(typeof bt!=='undefined'){clearInterval(bt.timer);bt={elapsed:0,phaseIndex:0,phaseElapsed:0,paused:false,timer:null,sound:true,key};} renderBreathPicker(); setBreathCopy(); const o=document.getElementById('breathOrb');o.style.transition='none';o.style.transform='scale(.78)';document.getElementById('breathCount').textContent='—';document.getElementById('breathPhase').textContent='Prepárate';document.getElementById('breathProgress').style.width='0%';}
+      function renderBreathPicker(){document.querySelectorAll('#breathPicker button').forEach(b=>b.classList.toggle('active',b.dataset.breath===activeBreath));}
+      function setBreathCopy(){const p=window.kamiPatterns[activeBreath];const note=document.querySelector('#breath .page > div:nth-of-type(4)');if(note)note.innerHTML='<b>'+p.name+'</b> · '+p.code+'<br>'+p.desc;}
+      function startBreath(key='calma'){show('breath');activeBreath=key;bt={elapsed:0,phaseIndex:0,phaseElapsed:0,paused:false,timer:null,sound:true,key};renderBreathPicker();setBreathCopy();applyBreath();bt.timer=setInterval(tickBreath,100)}
+      function tickBreath(){if(bt.paused)return;bt.elapsed+=.1;bt.phaseElapsed+=.1;const p=window.kamiPatterns[activeBreath],part=p.parts[bt.phaseIndex];if(bt.phaseElapsed>=part[1]-.01){bt.phaseElapsed=0;bt.phaseIndex=(bt.phaseIndex+1)%p.parts.length;applyBreath()}if(bt.elapsed>=180){exitBreath();toast('Práctica completada. Aquí sigo contigo.');return}const cur=p.parts[bt.phaseIndex];document.getElementById('breathCount').textContent=Math.max(0,Math.ceil(cur[1]-bt.phaseElapsed));document.getElementById('breathProgress').style.width=(bt.elapsed/180*100)+'%'}
+      function applyBreath(){const p=window.kamiPatterns[activeBreath],part=p.parts[bt.phaseIndex],o=document.getElementById('breathOrb');document.getElementById('breathPhase').textContent=part[0]+'…';document.getElementById('breathCount').textContent=Math.ceil(part[1]);o.style.transition='transform '+part[1]+'s ease-in-out,filter .5s';if(part[2]==='in')o.style.transform='scale(1.14)';else if(part[2]==='out')o.style.transform='scale(.78)';else o.style.transform='scale(1.03)'}
+      window.chooseBreath=chooseBreath;window.startBreath=startBreath;window.tickBreath=tickBreath;window.applyBreath=applyBreath;
+    `;
+    d.body.appendChild(script);
+
+    const oldQuick=d.querySelector('#kamiPage .suggestions button:nth-child(3)');if(oldQuick)oldQuick.onclick=()=>w.startBreath('calma');
+    w.sendChat=function(){const i=d.getElementById('chatInput'),txt=i.value.trim();if(!txt)return;const log=d.getElementById('chat');const u=d.createElement('div');u.className='bubble u';u.textContent=txt;log.appendChild(u);i.value='';setTimeout(()=>{const k=d.createElement('div');k.className='bubble k';k.innerHTML='Gracias por contármelo. Aquí sigo contigo. Podemos continuar por escrito o elegir una respiración para este momento.<div class="breathQuick" style="margin-top:10px">'+Object.entries(patterns).map(([key,p])=>'<button data-breath="'+key+'"><b>'+p.code+'</b>'+p.name+'</button>').join('')+'</div>';log.appendChild(k);k.querySelectorAll('[data-breath]').forEach(b=>b.onclick=()=>w.startBreath(b.dataset.breath));k.scrollIntoView({behavior:'smooth',block:'end'})},350)};
+  }catch(e){console.warn('KAMI patch',e)}
 });
 </script>
-</body>
-</html>
+</body></html>
