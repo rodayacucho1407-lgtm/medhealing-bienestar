@@ -1,1 +1,55 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="refresh" content="0; url=/webapp/"><title>KAMI · MedHealingTours</title><script>location.replace('/webapp/');</script></head><body style="margin:0;min-height:100vh;display:grid;place-items:center;background:#f8f3eb;color:#0b5954;font-family:system-ui,sans-serif"><div>Abriendo KAMI…</div></body></html>
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<meta name="theme-color" content="#0b5954">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="KAMI">
+<title>KAMI · MedHealingTours</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;height:100%;overflow:hidden;background:#dfe9e5;font-family:system-ui,-apple-system,Segoe UI,sans-serif}body{display:grid;place-items:center}.shell{position:relative;width:100%;height:100dvh;max-width:430px;background:#f7f1e7;overflow:hidden;box-shadow:0 0 70px rgba(20,61,56,.16)}iframe{display:block;width:100%;height:100%;border:0;background:#f7f1e7}@media(min-width:700px){body{background:radial-gradient(circle at 50% 0,#eff5f1,#dbe7e2 58%,#cad8d3)}.shell{height:min(900px,100dvh);border-radius:34px;box-shadow:0 28px 90px rgba(14,55,50,.22)}}
+</style>
+</head>
+<body>
+<div class="shell"><iframe id="kamiApp" src="/v5/" title="KAMI"></iframe></div>
+<script>
+const frame=document.getElementById('kamiApp');
+frame.addEventListener('load',()=>{
+  try{
+    const d=frame.contentDocument,w=frame.contentWindow;
+    const style=d.createElement('style');
+    style.textContent=`
+      html,body{height:100%!important;overflow:hidden!important;background:#f7f1e7!important}
+      .stage{height:100dvh!important;min-height:0!important;padding:0!important;display:block!important;background:#f7f1e7!important}
+      .phone{position:relative!important;width:100%!important;max-width:none!important;height:100dvh!important;max-height:none!important;border-radius:0!important;border:0!important;box-shadow:none!important;margin:0!important}
+      .screen{overscroll-behavior:contain!important}
+      .welcomeBg{background:linear-gradient(180deg,rgba(1,45,43,.08),rgba(1,49,46,.26) 40%,rgba(4,45,42,.86) 100%),url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1000&q=88') center/cover!important}
+      .welcome{padding-top:max(56px,env(safe-area-inset-top))!important;padding-bottom:max(24px,env(safe-area-inset-bottom))!important;justify-content:flex-start!important}
+      .kamiCoverOrb{width:158px;height:158px;border-radius:50%;margin:18px auto 22px;background:radial-gradient(circle at 34% 28%,#fff 0 12%,#dff9f2 25%,#91d3c4 50%,#449386 74%,#0b5954 100%);box-shadow:0 0 0 18px rgba(255,255,255,.08),0 0 62px rgba(138,235,211,.34),inset 0 0 28px rgba(255,255,255,.82);position:relative;animation:orbFloat 5s ease-in-out infinite}
+      .kamiCoverOrb:before{content:'';position:absolute;right:34px;top:30px;width:26px;height:26px;border-radius:50%;background:rgba(255,255,255,.86);filter:blur(6px)}
+      .kamiCoverOrb:after{content:'❦';position:absolute;left:50%;bottom:13px;transform:translateX(-50%);font-size:24px;color:rgba(8,83,76,.92)}
+      @keyframes orbFloat{50%{transform:translateY(-7px) scale(1.025)}}
+      .welcome .kami{font-size:50px!important;color:#fff!important;letter-spacing:.28em!important;text-shadow:0 2px 18px rgba(0,0,0,.18)!important;margin-top:0!important}
+      .welcome .tagline{color:#f6f1e8!important;font-size:10px!important;letter-spacing:.22em!important;line-height:1.72!important;margin-top:8px!important}
+      .welcomeLead{font-size:20px!important;margin-top:auto!important;text-shadow:0 1px 10px rgba(0,0,0,.18)}
+      .welcome .btn.light{background:rgba(8,75,70,.64)!important;color:#fff!important;border:1px solid rgba(255,255,255,.34)!important;backdrop-filter:blur(9px)}
+      .welcome .btn.ghost{background:rgba(255,255,255,.08)!important}
+      .nav .kamiNav span{width:46px!important;height:46px!important;border-radius:50%!important;background:radial-gradient(circle at 34% 28%,#fff 0 14%,#e0faf3 28%,#8fd2c3 54%,#3d9184 76%,#0b5954 100%)!important;color:transparent!important;box-shadow:0 10px 24px rgba(11,89,84,.24),inset 0 0 14px rgba(255,255,255,.72)!important;margin:-18px auto 2px!important;position:relative!important}
+      .nav .kamiNav span:after{content:'';position:absolute;right:12px;top:11px;width:9px;height:9px;border-radius:50%;background:rgba(255,255,255,.9)}
+      @media(min-width:700px){.phone{height:100%!important}}
+    `;
+    d.head.appendChild(style);
+    const welcome=d.querySelector('#s1 .welcome');
+    if(welcome && !welcome.querySelector('.kamiCoverOrb')){
+      const orb=d.createElement('div');orb.className='kamiCoverOrb';welcome.insertBefore(orb,welcome.firstChild);
+    }
+    const tag=d.querySelector('#s1 .tagline');if(tag)tag.innerHTML='TU ESPACIO SEGURO<br>PARA SENTIR, SOLTAR<br>Y VOLVER A TI';
+    const lead=d.querySelector('#s1 .welcomeLead');if(lead)lead.textContent='Tu bienestar te acompaña siempre.';
+    const kamiNav=d.querySelector('.nav .kamiNav');if(kamiNav){const txt=[...kamiNav.childNodes].find(n=>n.nodeType===3);if(txt)txt.textContent='KAMI';}
+  }catch(e){console.warn(e)}
+});
+</script>
+</body>
+</html>
